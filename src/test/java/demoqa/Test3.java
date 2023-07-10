@@ -42,7 +42,7 @@ public class Test3 {
 
         WebElement veu= driver.findElement(By.xpath("//label[@for='tree-node-veu']"));
 
-        JavascriptExecutor jse = (JavascriptExecutor)driver;
+        JavascriptExecutor jse = (JavascriptExecutor)driver; //scrolldown
         jse.executeScript("window.scrollBy(0,250)");
 
         veu.click();
